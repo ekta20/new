@@ -50,12 +50,12 @@ title{color:#ffea00}
 .navbar{margin-top: -0.6%;}
 .home{margin-top: 4%;}
 .nimg{visibility:hidden;}
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
     .navbarelements {
      visibility: hidden;
     }
     .nimg{float:right;visibility: visible;margin-top:-4%;margin-right: 4%;}
     .hleft{visibility: hidden;}
-    .hright{float:none; margin-top:15%;height:80%;margin-left:-1%;}
+    .hright{float:none; margin-top:15%;height:30%;margin-left:-1%;}
     
 }
