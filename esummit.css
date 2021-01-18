@@ -1,8 +1,10 @@
 .logo
 {margin-left:2.4%;
-margin-top:1.3%;
+    width:8%;
+    height:auto;
+margin-top:2%;
 float:left;}
-ol{margin-left:60%;list-style-type:none;}
+ol{margin-left:60%;list-style-type:none;margin-top: -5.7%;}
 .navbarelements{float:left;margin-left: 6%;color:#e0e0e0;
 margin-top:4%;
 font-family: 'Heebo', sans-serif;font-size: 1.2vw;font-weight: 500;
@@ -22,7 +24,7 @@ font-family: 'Heebo', sans-serif;font-size: 1.2vw;font-weight: 500;
 @keyframes home{ from {opacity:0;} to {opacity:1;}}
 .abouthead{color:#ffea00;font-family: 'Heebo', sans-serif;font-weight: 700;margin-top: 17%;margin-left: 40.6%;font-size: 3.7vw;
     animation-name: home;animation-delay: 0s;animation-duration:4s ;animation-timing-function: ease;}
-.aboutimg{float:left;}
+.aboutimg{float:left;height:50%; width:auto;}
 .fline{color:#fafafa;font-size: 1.5vw;font-family: 'Open Sans', sans-serif;font-weight: 700;margin-left: 40.6%;margin-top:0%;}
 .line{color: #fafafa;margin-left: 40.6%;font-family: 'Open Sans', sans-serif;font-size: 1.218vw;margin-top:0%;}
 .aboutr{float:right;}
@@ -38,6 +40,7 @@ font-family: 'Heebo', sans-serif;font-size: 1.2vw;font-weight: 500;
 .contactp{color:#fafafa;font-size: 1.5vw;font-family: 'Open Sans', sans-serif;font-weight: 700;margin-left: 15%;margin-top:5%;}
 .ekta{height:30%;width:34%;float:left;background-color: #003587;margin-left: 15%;margin-top: -0.7%;}
 .name{color:#ffea00;font-family: 'Heebo', sans-serif;font-weight: 500;margin-left: 41%;font-size: 1.55vw;}
+.name2{color:#ffea00;font-family: 'Heebo', sans-serif;font-weight: 500;margin-left: 41%;font-size: 1.55vw;}
 .desig{color:#fafafa;font-family: 'Open Sans', sans-serif;font-weight: 600;margin-left: 40.4%;font-size: 1vw;margin-top:-5%;}
 .no{color:#fafafa;font-family: 'Heebo', sans-serif;font-weight: 500;margin-left:22%;margin-top:-6.5%;font-size: 1.5vw;}
 .phone{margin-left: 15%;margin-top: 5%;}
@@ -49,13 +52,61 @@ title{color:#ffea00}
 .one{background-color: #0d47a1; height:12.7%; width:100%;position:fixed;margin-top:-4%;}
 .navbar{margin-top: -0.6%;}
 .home{margin-top: 4%;}
+.yaar{visibility: hidden;}
 .nimg{visibility:hidden;}
-@media only screen and (max-width: 480px) {
-    .navbarelements {
+
+
+
+@media only screen and (max-width: 600px) {
+    #homee {
      visibility: hidden;
     }
-    .nimg{float:right;visibility: visible;margin-top:-4%;margin-right: 4%;}
-    .hleft{visibility: hidden;}
-    .hright{float:none; margin-top:15%;height:40%;margin-left:-1%;}
     
+    .hleft{visibility: hidden;}
+    
+    .one{background-color: #0d47a1; height:8%; width:100%;position:fixed;margin-top:-3.7%;}
+
+    .logo{width:30%;height:auto;margin-top: 9%;}
+    .nimg{float:right;visibility: visible;margin-top:6.5%;margin-right: 4.5%;height:90%; width:auto; }
+    
+    .hright{float:none; margin-top:15%;height:50%;margin-left:0%;}
+    .aboutimg{width:30%;height:auto;}
+    .htext{font-size: 7.8vw;margin-left:3.5%;margin-top: -135%;}
+    .hbutton{height:7%;width:40%;background-color: #ffea00;margin-top: 47%;margin-left: 24.8%;padding: 0.5% 0.3% 0.2% 9%;border-radius: 50px;}
+    .hbtext{font-size: 3.5vw;}
+    .aboutr{visibility: hidden;}
+    .abutton{height:7%;width:40%;background-color: #ffea00;margin-top: 10%;margin-left: 24.8%;padding: 0.5% 0.3% 0.2% 9%;border-radius: 50px;}
+    .abtext{font-size: 3.5vw;}
+    .abouthead{font-size: 8vw;margin-left: 30%;}
+    .aboutimg{float:none;height:34.4%; width:auto;margin-top: -10%;margin-left: 0%;}
+    .fline{color:#fafafa;font-size: 5vw;font-family: 'Open Sans', sans-serif;font-weight: 700;margin-left: 6.6%;margin-top:10%;}
+    .line{color: #fafafa;margin-left: 6.6%;font-family: 'Open Sans', sans-serif;font-size: 3.5vw;margin-top:0%;}
+    .conthead{font-size: 8vw;margin-left: 24.5%;margin-top: 33%;}
+    .fcline{font-size: 3.5vw;margin-left: 10%;margin-top:-5%;}
+    .rect1{height:5%;width:5%;margin-top: -7%;}
+    .rect2{height:7%;width:5%;}
+    .email{font-size: 3.5vw;margin-left:28%;margin-top: -17%;}
+    .or{font-size: 3.5vw;margin-left:53%;margin-top:-1%;}
+    .insta{font-size: 3.5vw;margin-left:28%;margin-top: -2.4%;}
+    .contactp{font-size: 3.5vw;margin-left: 10%;margin-top:15%;}
+    .ekta{height:25%;width:80%;margin-left:10%;margin-top:0%;}
+    
+    .name{margin-left: 37%;font-size: 4.5vw;margin-top:6%;}
+    .desig{margin-left: 38.7%;font-size: 2.5vw;margin-top:-5%;}
+    .no{margin-left:30%;margin-top:-8%;font-size: 3vw;}
+    .phone{margin-left: 15%;margin-top: 5%;}
+    .envelope{margin-left: 14%;margin-top: -7.5%;}
+    .myemail{margin-left:30%;margin-top:-8.4%;font-size: 3vw;}
+    .aditya{height:25%;width:80%;margin-left: 10%;margin-top: 50%;float:none;}
+    .name2{margin-left: 37%;font-size: 4.5vw;margin-top:-5%;}
+    .yaar{visibility: visible;}
+    #homee{width:70%;height:80%;margin-left: 20%;}
+    .navbarelements{float:none;margin-left: 10%;background-color: #0d47a1;padding: 20% 2% 0% 15%;
+        margin-top:0%;
+        font-family: 'Heebo', sans-serif;font-size: 5vw;font-weight: 500;
+    }
+   
+    
+
+
 }
