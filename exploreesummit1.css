@@ -1,0 +1,63 @@
+.logo
+{margin-left:2.4%;
+    width:8%;
+    height:auto;
+margin-top:2%;
+float:left;}
+ol{margin-left:60%;list-style-type:none;margin-top: -5.7%;}
+.navbarelements{float:left;margin-left: 6%;color:#e0e0e0;
+margin-top:4%;
+font-family: 'Heebo', sans-serif;font-size: 1.2vw;font-weight: 500;
+}
+.nav:hover{color:#ffea00;}
+.nav{text-decoration:none;color:#e0e0e0;}
+.heading{color:#ffea00;font-family: 'Heebo', sans-serif;font-weight: 700;margin-top: 7%;margin-left: 36.4%;font-size: 3vw;}
+.texte{color:#fafafa;font-size: 2vw;font-family: 'Open Sans', sans-serif;font-weight: 600;margin-left: 0%;margin-top:1.4%;text-align:center;}
+.first{margin-left: 37.5%;margin-top: 0%;height:73%; width:auto;}
+.firsthead{color:#ffea00;line-height:110%;font-family: 'Heebo', sans-serif;font-weight: 900; margin-top: -14%;margin-left: 0%;font-size: 2vw; text-align: center;}
+.fdate{color:#fafafa;font-family: 'Heebo', sans-serif;font-weight: 600;margin-top: -1.6%;margin-left: 45.7%;font-size: 1.3vw;}
+.fibutton{height: 7.5%;width:19.3%;margin-left: 40.62%;border:none;background-color: #ffea00;border-radius: 6.7px;}
+.fitext{font-family: 'Heebo', sans-serif;font-weight: 600;color:#0d47a1;font-size:1.1vw;margin-top: 4%;}
+
+.second{margin-left: 37.5%;margin-top: 7%;height:73%; width:auto;}
+.sechead{color:#ffea00;line-height:110%;font-family: 'Heebo', sans-serif;font-weight: 900; margin-top: -12%;margin-left: 0%;font-size: 2vw; text-align: center;}
+
+.third{margin-left: 37.5%;margin-top: 7%;height:73%; width:auto;}
+.thdate{color:#fafafa;font-family: 'Heebo', sans-serif;font-weight: 600;margin-top: -1.6%;margin-left: 46%;font-size: 1.3vw;}
+
+.fourth{margin-left: 37.5%;margin-top: 7%;height:73%; width:auto;}
+.fodate{color:#fafafa;font-family: 'Heebo', sans-serif;font-weight: 600;margin-top: -1.6%;margin-left: 46.38%;font-size: 1.3vw;}
+.bplan{text-decoration:none ;}
+.one{background-color: #0d47a1; height:12%; width:100%;position:fixed;margin-top:-7%;}
+.navbar{margin-top: -0.6%;}
+.home{margin-top: 4%;}
+.nimg{visibility: hidden;}
+@media only screen and (max-width: 600px) {
+    #homee {
+        visibility: hidden;
+       }
+       .one{background-color: #0d47a1; height:8%; width:100%;position:fixed;margin-top:-24.5%;}
+   
+    .logo{width:30%;height:auto;margin-top: 9%;}
+    .nimg{float:right;visibility: visible;margin-top:6.5%;margin-right: 4.5%;height:90%; width:auto; }
+    
+    .first{height:60%;width:auto;margin-left:6%;margin-top: 3%;}
+    .second{height:60%;width:auto;margin-left:6%;margin-top:20%;}
+    .third{height:60%;width:auto;margin-left:6%;margin-top:20%;}
+    .fourth{height:60%;width:auto;margin-left:6%;margin-top:20%;}
+    .heading{margin-top: 25%;margin-left: 18%;font-size: 7vw;}
+    .texte{margin-left: 2%;margin-top:0%;text-align:center;font-size: 3vw;}
+    .firsthead{font-size: 6vw;margin-top:-48.5%;}
+    .fdate{font-size: 4vw;margin-top:-6%;margin-left: 36.3%;}
+    .fibutton{height: 8%;width:70%;margin-left: 15.4%;border-radius: 6.7px;margin-top: 0.3%;}
+    .fitext{font-size:3.5vw;margin-top: 4.5%;}
+    .sechead{font-size: 6vw;margin-top:-44%;}
+    .thdate{font-size: 4vw;margin-top:-6%;margin-left: 36.3%}
+    .fodate{font-size: 4vw;margin-top:-6%;margin-left: 38.3%}
+    #homee{width:70%;height:80%;margin-left: 20%;}
+    .navbarelements{float:none;margin-left: 10%;background-color: #0d47a1;20% 2% 0% 15%;
+        margin-top:0%;
+        font-family: 'Heebo', sans-serif;font-size: 4.5vw;font-weight: 500;
+    }
+    #hh{margin-top: 55%;}
+}
