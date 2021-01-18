@@ -2,22 +2,46 @@
 <head>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="esummit.css">
+    <link rel="stylesheet" href="try.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> E-Summit,IIITN by ACE: Celebrating the Spirit Of Innovation </title>
+    <script>
+        var x=0;
+        function myFunction() {
+            if (x==0) {
+                document.getElementById('homee').style.visibility='visible';
+                document.getElementById('homee2').src='Group 63.png';
+                x++;
+            }
+            else{
+                document.getElementById('homee').style.visibility='hidden';
+                document.getElementById('homee2').src='navbar.png';
+                x--;
+            }
+            
+            
+           
+            
+
+
+        }
+        </script>
 </head>
 <body style="background-color: #0d47a1;">
     <div class="one">
         <div class="navbar">
-            <img class="logo" src="Group 47.png" width="8%" height= "auto" ></img>
-            <ol>
-            <li class="navbarelements"><a class="nav" href="index.html">Home</a></li>
+            <a href="try.html"> <img class="logo" src="Group 47.png" ></img></a>
+            <img src="navbar.png" class="nimg" id="homee2" onclick="myFunction()"></img>
+            
+            <ol id="homee">
+            <li class="navbarelements"><a class="nav two" href="try.html" id="hh" >Home</a></li>
             <li class="navbarelements"><a class="nav" href="#about">About Us</a></li>
-            <li class="navbarelements"><a class="nav" href="exploreesummit.html">Explore E-Summit</a></li>
+            <li class="navbarelements"><a class="nav" href="exploreesummit1.html">Explore E-Summit</a></li>
             <li class="navbarelements"><a class="nav" href="#contact">Contact Us</a></li>
+            <li class="navbarelements"><br></li>
             </ol>
-            <img src="navbar.png" height="40%" width="auto" class="nimg"></img>
-        
+                    
+
         </div>
     </div>
     <div class="home">
@@ -26,11 +50,11 @@
         <p class="htext"><span id="dee">D</span>IVE INTO THE WORLD <br>
             OF OPPORTUNITIES <br>
             WITH E-SUMMIT 2K21!!</p><br>
-        <a href="exploreesummit.html" class="link1"><div class="hbutton"><p class="hbtext">Explore E-Summit</p></div></a>
+        <a href="exploreesummit1.html" class="link1"><div class="hbutton"><p class="hbtext">Explore E-Summit</p></div></a>
     </div><br>
     <div>
         <p class="abouthead" id="about">ABOUT US</p><br>
-        <img class="aboutimg" src="Group 53.png" height="50%" width="auto">
+        <img class="aboutimg" src="Group 53.png" >
         <img class="aboutr" src="Rectangle 26.png" height="50%" width="auto"></img>
         <p class="fline">E-Summit is the annual flagship event of ACE (E-cell, IIITN). </p>
         <p class="line">E-Summit is aimed to bring together pioneers of entrepreneurship world, <br>
@@ -43,7 +67,7 @@
             So, what are you waiting for? <br>
             Register for E-Summit events now!!<br>
         </p>
-        <a href="exploreesummit.html"class="link1" title="Click to know about events and competitions"><div class="abutton"><p class="abtext">Explore E-Summit</p></div></a>
+        <a href="exploreesummit1.html"class="link1" title="Click to know about events and competitions"><div class="abutton"><p class="abtext">Explore E-Summit</p></div></a>
     </div>
     <div>
         <p class="conthead" id="contact">CONTACT US</p><br>
@@ -63,7 +87,10 @@
             <p class="myemail">ektasingh.127s@gmail.com</p>
         </div>
         <div class="aditya">
-            <p class="name">Aditya Sher</p>
+            <p class="yaar">
+
+            </p>
+            <p class="name2 ">Aditya Sher</p>
             <p class="desig">Head, E-Summit</p>
             <img src="Group 60.png" class="phone" height="14%" width="auto"></img>
             <p class="no">9172345813</p><br>
