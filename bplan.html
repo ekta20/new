@@ -5,19 +5,45 @@
     <link rel="stylesheet" href="bplan.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> E-Summit,IIITN by ACE: Celebrating the Spirit Of Innovation </title>
+    <script>
+        var x=0;
+        function myFunction() {
+            if (x==0) {
+                document.getElementById('homee').style.visibility='visible';
+                document.getElementById('homee2').src='Group 63.png';
+                x++;
+            }
+            else{
+                document.getElementById('homee').style.visibility='hidden';
+                document.getElementById('homee2').src='navbar.png';
+                x--;
+            }
+            
+            
+           
+            
+
+
+        }
+        </script>
 </head>
 <body style="background-color: #0d47a1;">
-    <div class="navbar">
-        <img class="logo" src="Group 47.png" width="8%" height= "auto" ></img>
-        <ol>
-            <li class="navbarelements"><a class="nav" href="index.html">Home</a></li>
-            <li class="navbarelements"><a class="nav" href="index.html#about">About Us</a></li>
-            <li class="navbarelements"><a class="nav" href="exploreesummit.html">Explore E-Summit</a></li>
-            <li class="navbarelements"><a class="nav" href="index.html#contact">Contact Us</a></li>
-        </ol>
-    </div><br>
+    <div class="one">
+        <div class="navbar">
+            <a href="index.html"> <img class="logo" src="Group 47.png" width="8%" height= "auto" ></img></a>
+            <img src="navbar.png" class="nimg" id="homee2" onclick="myFunction()"></img>
+            <ol id="homee">
+                <li class="navbarelements"><a class="nav" href="index.html" id="hh">Home</a></li>
+                <li class="navbarelements"><a class="nav" href="index.html#about">About Us</a></li>
+                <li class="navbarelements"><a class="nav" href="exploreesummit1.html">Explore E-Summit</a></li>
+                <li class="navbarelements"><a class="nav" href="index.html#contact">Contact Us</a></li>
+                <li class="navbarelements"><br></li>
+            </ol>
+            
+        </div><br>
+    </div>
     <p class="bplanh" >B-PLAN COMPETITION</p>
-    <img class="bimg" src="bimg.png" height="50%" width="auto"></img>
+    <img class="bimg" src="bimg.png" ></img>
     <a class="bplan" href="https://forms.gle/s7of23tb5AnWLUEp7"><button class="fibutton" type="button"><p class="fitext">Register</p></button></a><br>
     <p class="what">What is it? </p><br>
     <p class="whatd">B-Plan competition is the flagship event of E-Summit 2k21.<br> 
@@ -44,7 +70,7 @@
         </li>
        
     </ul>
-    <p class="sd">Submission Date:  19th January
+    <p class="sd">Submission Date:  24th January
     </p><br>
     <p class="t10">(The top 10 teams from round one will be selected for round two.)
     </p><br>
