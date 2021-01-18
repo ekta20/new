@@ -54,7 +54,9 @@ title{color:#ffea00}
 .home{margin-top: 4%;}
 .yaar{visibility: hidden;}
 .nimg{visibility:hidden;}
-
+.dd{font-size: 1.5vw;color: #fafafa;font-family: 'Heebo', sans-serif;font-weight: 500;margin-left: 25%;}
+.co{margin-top: 20%;}
+.lp{color: #ffea00;font-weight: 400;text-decoration: none;}
 
 
 @media only screen and (max-width: 600px) {
@@ -105,7 +107,7 @@ title{color:#ffea00}
         margin-top:0%;
         font-family: 'Heebo', sans-serif;font-size: 5vw;font-weight: 500;
     }
-   
+   .dd{font-size: 3.5vw;margin-left: 17%;}
     
 
 
