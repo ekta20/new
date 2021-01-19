@@ -63,9 +63,9 @@ font-family: 'Heebo', sans-serif;font-size: 1.2vw;font-weight: 500;
 }
 @media only screen and (max-width: 360px) {
 
-    .first{height:74%;width:auto;margin-left:6%;margin-top: 3%;}
-    .second{height:74%;width:auto;margin-left:6%;margin-top:20%;}
-    .third{height:74%;width:auto;margin-left:6%;margin-top:20%;}
-    .fourth{height:74%;width:auto;margin-left:6%;margin-top:20%;}
+    .first{height:auto;width:90%;margin-left:6.5%;margin-top: 3%;}
+    .second{height:auto;width:90%;margin-left:6.5%;margin-top:20%;}
+    .third{height:auto;width:90%;margin-left:6.5%;margin-top:20%;}
+    .fourth{height:auto;width:90%;margin-left:6.5%;margin-top:20%;}
     
 }
