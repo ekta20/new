@@ -65,3 +65,8 @@ font-family: 'Heebo', sans-serif;font-size: 1.2vw;font-weight: 500;
 #hh{margin-top: 55%;}
 
 }
+@media only screen and (max-width: 360px) {
+    .bimg{margin-left: 9%;margin-top:-3.5%;height:35%;}
+    .fibutton{height: 6%;width:29%;margin-left: 36.5%;border-radius: 50px;margin-top: -5%;}
+    .fibutton2{height: 6%;width:29%;margin-left: 36.5%;border-radius: 50px;margin-top:2%; margin-bottom: 3%;}
+}
