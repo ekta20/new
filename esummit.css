@@ -112,3 +112,15 @@ title{color:#ffea00}
 
 
 }
+@media only screen and (max-width: 360px) {
+
+    .htext{font-size: 7.5vw;margin-left:-0.4%;margin-top: 5%;}
+    .hright{float:none; margin-top:15%;height:61%;margin-left:0%;}
+    .hbutton{height:9%;width:40%;background-color: #ffea00;margin-top: 47%;margin-left: 24.8%;padding: 1.5% 0.3% 0.2% 9%;border-radius: 50px;}
+    .hbtext{font-size: 3.5vw;}
+    .aboutimg{float:none;height:45%; width:auto;margin-top: -10%;margin-left: 2%;}
+    .abutton{height:9%;width:40%;background-color: #ffea00;margin-top: 10%;margin-left: 24.8%;padding: 1.5% 0.3% 0.2% 9%;border-radius: 50px;}
+    .ekta{height:30%;width:80%;margin-left:10%;margin-top:0%;}
+    .yaar{visibility: visible;}
+    
+}
